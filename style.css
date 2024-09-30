@@ -4,6 +4,7 @@ color: rgb(182, 10, 104);
 background: rgb(248, 244, 244);
 margin: 0px;
 font-family: "Oswald", sans-serif;
+margin-bottom: 100px;
 }
 header{
     border-bottom:solid rgb(57, 76, 247);
@@ -40,5 +41,17 @@ img{
  .categoria{
     padding-left: 20px;
     padding-right: 20px;
+    margin-top: 0%50px;
 
+ }
+ .categoria-videos img{
+    opacity:0,5;
+    height: 200px;;
+ }
+ .categoria-videos img:hover{
+    opacity: 1;
+    border: 1px solid rgb(204, 23, 23);
+ }
+ .categoria h2{
+    color: rgb(57, 76, 247);
  }
